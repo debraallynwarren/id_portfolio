@@ -1,0 +1,33 @@
+body {background-color:#C0C0C0;
+	 margin:auto; 
+	 width:790px; 
+	 margin-top:auto;}
+
+#wrapper {
+	border-color:#006666;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 790px;
+	border: thin;
+	background-color: #C0C0C0;
+}
+#all_content {
+	width: 765px;
+	margin-right:auto;
+	margin-left: auto;
+	background-color: #C0C0C0;
+}
+
+h1 {font-family:"Franklin Gothic Medium", Arial, Helvetica, sans-serif; 
+	font-style:normal; 
+	font-size:18pt; 
+	color:#333333; 
+	font-weight:bold; 
+	margin: 1px; 
+	padding: 10px;}
+
+.movie {
+	margin: auto;
+}
+	
