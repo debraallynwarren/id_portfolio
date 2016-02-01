@@ -1,14 +1,16 @@
-body {
+﻿body {
 	font-family: 'Lato', sans-serif;
 	color: #443d67;
 	font-weight: 300;
 }
 
 .text-muted {
-	color:#BCBBBB;
+	color:#646363;
 }
 .text-thin {
 	font-weight: 100;
+	color:#2f1583;
+
 }
 
 .title-super {
