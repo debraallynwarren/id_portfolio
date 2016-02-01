@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -127,10 +127,7 @@ button,
 select {
   text-transform: none;
 }
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type=button], input[type=reset], input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -146,23 +143,20 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-input[type="checkbox"],
-input[type="radio"] {
+input[type=checkbox], input[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 fieldset {
@@ -207,7 +201,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #1c1c1c;
   background-color: #ffffff;
 }
 input,
@@ -219,13 +213,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -302,9 +295,9 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 515;
   line-height: 1.1;
-  color: inherit;
+  
 }
 h1 small,
 h2 small,
@@ -332,8 +325,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777777;
-}
+  }
 h1,
 .h1,
 h2,
@@ -410,7 +402,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 }
 @media (min-width: 768px) {
@@ -454,23 +446,14 @@ mark,
 .text-capitalize {
   text-transform: capitalize;
 }
-.text-muted {
-  color: #777777;
-}
 .text-primary {
   color: #428bca;
-}
-a.text-primary:hover {
-  color: #3071a9;
 }
 .text-success {
   color: #3c763d;
 }
 a.text-success:hover {
   color: #2b542c;
-}
-.text-info {
-  color: #31708f;
 }
 a.text-info:hover {
   color: #245269;
